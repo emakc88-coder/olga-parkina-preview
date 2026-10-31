@@ -20,3 +20,6 @@ html,body{overflow-x:clip}.hero-body>*{min-width:0}.section>*{min-width:0}.poste
 /* Soft powder rose palette. */
 :root{--paper:#fcf8f3;--ink:#644d50;--wine:#b17e88;--muted:#a08b89;--line:#ead9d3}
 body{background:#fcf8f3}.hero{background:radial-gradient(ellipse at 80% 60%,#f5e3df,transparent 65%)}h1 em,h2 em,.quote em{color:#b4858e}.button,.button-light{background:#b5838d;color:#fff}.button:hover,.button-light:hover{background:#a16f7a}.program{background:linear-gradient(120deg,#fbf0e9,#f4dfdc 65%,#faf0e5)}.program em{color:#b4858e}.program .eyebrow,.day-top,.day-sub,.days ul,.limited{color:#98787c}.day-top,.program-cta{border-color:#dfc2c2}.program-cta p{color:#9f727a}.poster-section{background:linear-gradient(120deg,#fcf1e5,#f6e3df)}.application{background:linear-gradient(120deg,#faf0e5,#f2ddda)}.application form{background:#fffaf5}.host-note strong,.host-label,.booking-terms h3,.price-row strong{color:#ad7d87}.future-price{color:#bda29f}.hero-foot{color:#a08b89}.portrait-art{background:#f5e3df}.section-heading>.eyebrow{color:#b18b85}.quote{color:#ad7d87}
+
+/* Fade the hero wash to the page background before every edge. */
+.hero{background:radial-gradient(ellipse 60% 48% at 53% 46%,#f5e3df 0%,#f8ede6 48%,#fcf8f3 100%)}
