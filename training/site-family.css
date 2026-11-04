@@ -45,3 +45,5 @@ header{position:sticky;top:0;z-index:100;width:100%;max-width:none;margin:0;padd
 .price-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:25px}.price-row strong{letter-spacing:normal}.price-deadline{margin:35px 0;padding:30px;background:#f6e6e1}.price-deadline h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;line-height:1.15;margin:15px 0}.price-deadline p{font-size:13px;line-height:1.8;color:var(--muted)}#price-countdown{letter-spacing:1px}.future-prices{margin-top:20px}.future-prices summary{cursor:pointer;font-size:13px;color:#9c707b;padding:10px 0}.future-prices ul{font-size:13px;line-height:1.9;padding-left:20px}.mobile-price-label{letter-spacing:normal;word-spacing:normal;font-size:11px}.day-top{letter-spacing:1.3px}.price-grid-head{letter-spacing:normal}@media(max-width:600px){.price-row{grid-template-columns:minmax(0,1fr);gap:12px}.price-row>div{grid-column:auto}.price-deadline{padding:25px 22px}.price-deadline h3{font-size:31px}}
 
 #price-countdown{display:none}.price-deadline h3{margin-top:0}
+
+#apply{grid-template-columns:minmax(0,1fr)}#apply>div{max-width:720px}.messenger-signup a:not(.button){text-decoration:underline}
